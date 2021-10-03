@@ -1,0 +1,306 @@
+/*
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+.is-mobile {
+    display: none;
+}
+@media (min-width: 1281px) {
+    .is-comp {
+        display: none;
+    }
+    /* CSS */
+
+}
+
+/*
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+
+    /* CSS */
+
+}
+
+/*
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    /* CSS */
+
+}
+
+/*
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    header {
+        height: 155px;
+    }
+    .input-box {
+        margin-left: 0;
+        display: block;
+        margin-top: 15px;
+    }
+    header .right-header {
+        width: calc(100% - 306px);
+    }
+    .home-section article .input-box {
+        display: inline-block;
+    }
+
+    .checkbox-tree {
+        overflow-y: scroll;
+        overflow-x: hidden;
+    }
+
+}
+
+/*
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 320px) and (max-width: 660px) {
+    .tab-box li {
+        width: 100%;
+        line-height: 20px;
+        height: 60px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+
+    /* CSS */
+
+    .home-section {
+        width: auto;
+        margin: 0;
+        left: 0;
+        padding: 10px 10px;
+    }
+
+    .input-box {
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+
+    .list-box .item {
+        height: 325px;
+        margin-top: 10px;
+    }
+
+    header .right-header {
+        float: right;
+        display: block;
+        width: 60%;
+    }
+
+    header {
+        height: 140px;
+    }
+
+    .right-header .menu li {
+        margin-left: 10px;
+    }
+
+    .list-box .item .dropdown-menu {
+        left: 21px;
+    }
+
+    .list-box .item .dropdown-menu:after {
+        left: 154px;
+    }
+    .is-mobile {
+        display: block;
+    }
+
+    .is-desktop {
+        display: none !important;
+    }
+
+    .home-section .left-header h5 {
+        margin-top: 20px;
+    }
+
+    .dropdown-container {
+        margin-left: 0;
+    }
+
+    .header-article {
+        height: auto;
+    }
+
+    .home-section article .left-header {
+        float: none;
+    }
+
+    .home-section article .right-header {
+        padding-top: 33px;
+        margin: 0;
+        height: 67px;
+        float: none;
+        width: 100%;
+    }
+
+    .list-box .item {
+        margin-right: 0;
+    }
+
+    footer {
+        margin-top: 15px;
+        text-align: center;
+    }
+    footer .menu {
+        margin-left: 0;
+    }
+    .sidebar.open {
+        width: 100%;
+        left: 0;
+    }
+    .menu-right a {
+        margin-left: 10px;
+    }
+    .sidebar .nav-list {
+        margin-top: 0;
+    }
+    .sidebar .top-details {
+        height: 100px;
+    }
+    .sidebar .top-details a i {
+        width: 40px;
+        min-width: 40px;
+    }
+    .sidebar.open ~ .home-section {
+        left: 0;
+        width: 100%;
+        top: 0;
+    }
+
+    .home-section article .input-box {
+        width: 100%;
+    }
+
+    .sidebar {
+        display: none;
+    }
+    .sidebar.open {
+        display: block;
+    }
+    .sidebar.open .ri-arrow-right-s-line {
+        display: none;
+    }
+    .sidebar.open .ri-arrow-left-s-line {
+        display: block;
+    }
+
+    .menu-button {
+        background: #ffffff;
+        border: 1px solid #CED6E0;
+        height: 40px;
+        line-height: 40px;
+        box-sizing: border-box;
+        border-radius: 5px;
+        cursor: pointer;
+        width: 40px;
+        float: right;
+        text-align: center;
+    }
+
+    .sidebar .right-header {
+        width: auto;
+        float: none;
+        margin-top: 0;
+    }
+
+    .home-section article .left-header a {
+        margin-top: -33px;
+    }
+
+    .home-section article .input-box {
+        width: 100%;
+    }
+
+    .home-section .left-header {
+        width: 100%;
+    }
+    .onboarding-section {
+        padding: 22px 20px 222px 20px;
+    }
+
+    .onboarding-section .border {
+        height: auto;
+    }
+
+    .onboarding-section .categories-box li a {
+        position: relative;
+        top: -20px;
+    }
+
+    .footer-fixed {
+        height: auto;
+        text-align: center;
+        padding: 0 20px;
+        width: calc(100% - 40px);
+    }
+    .checkbox-tree {
+        overflow-y: scroll;
+        overflow-x: hidden;
+    }
+
+    .ReactModal__Content {
+        height: auto;
+        width: 90%;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 410px) {
+    .onboarding-section header, .onboarding-section article {
+        padding: 0 10px;
+    }
+
+    .onboarding-section {
+        padding: 10px 10px 222px 10px;
+    }
+}
+
+@media (min-width: 100px) and (max-width: 320px) {
+    .onboarding-section header, .onboarding-section article {
+        padding: 0 5px;
+    }
+
+    .onboarding-section {
+        padding: 5px 5px 222px 5px;
+    }
+
+    .dropdown-toggle {
+        font-size: 11px;
+    }
+    .right-header .menu li {
+        margin-left: 0px;
+    }
+    header .right-header {
+        float: right;
+        display: block;
+        width: 55%;
+    }
+}
+
+@media (min-width: 100px) and (max-width: 280px) {
+    header .dropdown-toggle {
+        display: none;
+    }
+
+    header .right-header {
+        float: right;
+        display: block;
+        width: 40%;
+    }
+}
